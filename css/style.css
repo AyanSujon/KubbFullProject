@@ -1,0 +1,607 @@
+/* =====================\
+#COMON-CSS
+\=======================*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+body {
+    background: #f9f9f9;
+}
+
+.clr {
+    clear: both;
+}
+
+/* ===================#COMON-CSS END================= */
+
+/* =====================\
+#NAV-BAR
+\=======================*/
+
+#nav-bar {
+    width: 100%;
+    height: 90px;
+    background: rgb(29, 25, 35);
+    /* position: absolute; */
+}
+
+.nav-row {
+    line-height: 90px;
+}
+
+.nav-row .img-col {
+    width: 30%;
+    float: left;
+}
+
+.nav-row .img-col img {
+    width: 100px;
+    height: 25px;
+}
+
+.nav-row .navbar-menu {
+    float: left;
+    width: 70%;
+}
+
+.nav-row .navbar-menu ul {
+    float: right;
+}
+
+.nav-row .navbar-menu ul li {
+    float: left;
+}
+
+.nav-row .navbar-menu ul li a {
+    margin-left: 44px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+.nav-row .navbar-menu ul li a:hover {
+    color: #28b8d8;
+
+}
+
+/* ==============Menu end================= */
+
+/* =====================\
+#BENNER SECTION START
+\=======================*/
+#banner {
+    height: 610px;
+    background: url('../images/banner-image.png.');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner .banner-text {
+    text-align: center;
+    color: #ffffff;
+}
+
+#banner .banner-text h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 243px;
+}
+
+#banner .banner-text h2 {
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 7px;
+}
+
+#banner .banner-text p {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* ===============#BENNER SECTION END============ */
+
+/*======================= #About Part START==================== */
+
+#about {
+    background: #f9f9f9;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about-heading h2 {
+    color: #444444;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+.about-heading p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.service-head h2 {
+    color: #444444;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+
+.services-col {
+    width: 370px;
+    background: #ffffff;
+    padding: 15px;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-right: 20px;
+    transform: rotateY('45deg');
+}
+
+.services-col:hover {
+    transform: scale(1.1);
+    transition: all linear .3s;
+    box-shadow: 1px 7px 12px #a6a6a6;
+}
+
+.services-text h3 {
+    color: #444444;
+    font-size: 170x;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.services-text p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/*======================= #About Part End==================== */
+
+/* =============  #instagram Shots start  ============== */
+#shots {
+    padding: 50px 0;
+    background: #2c2c2c;
+    height: 590px;
+}
+
+.comon-headding h2 {
+    color: #d5d5d5;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+
+.comon-headding h2::before {
+    content: '';
+    background: #535353;
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.comon-headding h2::after {
+    content: '';
+    background: #535353;
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+}
+
+.shots-image-row {
+    margin-top: 30px;
+    display: flex;
+}
+
+.shots-image-col img {
+    width: 400px;
+    height: 330px;
+}
+
+.shot-button {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.shot-button a {
+    width: 177px;
+    height: 46px;
+    background-color: transparent;
+    border: 1px solid #797979;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 46px;
+    color: #a6a6a6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    transition: all linear .3s;
+}
+
+.shot-button a:hover {
+    background: #a6a6a6;
+    color: black;
+}
+
+
+/*  =============  #instagram shots End  ============== */
+/* ======================== journal part start ================= */
+
+#journal {
+    padding: 80px 0;
+    padding-bottom: 84px;
+    background: #f9f9f9;
+}
+
+#journal .comon-headding h2 {
+    color: #444444;
+}
+
+#journal .comon-headding h2::before {
+    content: '';
+    background: #535353;
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+}
+
+#journal .comon-headding h2::after {
+    content: '';
+    background: #535353;
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: 33%;
+}
+
+.journal-row {
+    padding-top: 30px;
+}
+
+.journal-col {
+    width: 370px;
+    background: #ffffff;
+    border: 1px solid #e3e3e3;
+    padding: 24px 0;
+    margin-right: 20px;
+}
+
+.journal-col:hover {
+    transform: scale(.9);
+    transition: all linear .4s;
+    box-shadow: 1px 7px 12px #a6a6a6;
+}
+
+.journal-col .journal-heading {
+    text-align: center;
+}
+.journal-col .journal-heading h2 {
+    color: #444444;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+
+.journal-col .journal-heading p {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.journal-col .journal-text p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 24px 27px;
+}
+
+.journal-col .journal-reading-row {
+    display: flex;
+    position: relative;
+    width: 370px;
+    height: 30px;
+}
+
+.journal-col {
+    float: left;
+}
+
+.journal-col .journal-reading-row .reading-text-col a {
+    position: absolute;
+    left: 0;
+    margin-left: 25px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.journal-col .journal-reading-row .journal-icon a {
+    color: #666666;
+    position: absolute;
+    right: 0;
+    font-size: 11px;
+    font-weight: 400;
+    margin-right: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.journal-col .journal-reading-row .reading-text-col a::before {
+    content: "";
+    height: 2px;
+    width: 100px;
+    /*  Question - width: max-content; ata dile keno hariye jay?*/
+    background-color: #28b8d8;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 0;
+}
+
+/* ============================== journal part end ================================ */
+
+/* ==================== Portfolio Start =================== */
+#portfolio {
+    padding: 80px 0;
+}
+
+.port-row .port-col-one {
+    width: 50%;
+    float: left;
+    height: 300px;
+}
+
+.port-row .port-col-two {
+    width: 50%;
+    float: left;
+    /* background: #d828c1; */
+    height: 300px;
+}
+
+.port_head h2 {
+    color: #444444;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.port_head h2::after {
+    content: '';
+    background: #d9d9d9;
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: 53%;
+}
+
+.port_img_text_row {
+    margin-top: 30px;
+}
+
+.port_img_col {
+    float: left;
+}
+
+.port_img_col img {
+    width: 196px;
+
+}
+
+.port_text_col {
+    float: left;
+    padding-left: 26px;
+}
+
+.port_text_col p {
+    width: 340px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+}
+
+.port_text_col p span {
+    display: inline-block;
+    width: 340px;
+    color: #666666;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 27px;
+}
+
+/* =======Port col two ========= */
+
+.port-col-two .port_head h2::after {
+    content: '';
+    background: #d9d9d9;
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: 62%;
+}
+
+.port_icon_text_row {
+    margin-top: 30px;
+
+}
+
+.port_icon_col {
+    float: left;
+    width: 10%;
+
+}
+
+.port_icon_text {
+    float: left;
+    width: 90%;
+    padding-left: 25px;
+    margin-bottom: 30px;
+}
+
+.port_icon_col .port_icon_text h2 {
+    color: #444444;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+
+.port_icon_text p {
+    width: 500px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 18px;
+}
+
+
+/* ==================== Portfolio End =================== */
+
+/* ============= Footer section start ============= */
+#footer {
+    padding: 70px 0;
+    background: #373737;
+}
+
+.footer_head h2 {
+    color: #f0f0f0;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.footer_data p {
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.footer_data ul li {
+    margin-top: 15px;
+}
+
+.footer_data ul li a {
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer_data ul li a .span_one {
+    margin-right: 11px;
+}
+
+.footer_data ul li a .span_two {
+    margin-left: 25px;
+    display: block;
+}
+
+.footer_col {
+    width: 25%;
+    float: left;
+    padding-right: 35px;
+}
+
+.footer_col:nth-child(4) {
+    padding-right: 0;
+}
+
+.footer_data ul li p .col_span {
+    display: block;
+    color: #929292;
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+/* ============= Footer section end ============= */
+
+/* ===========  Copyright Start ============== */
+#copyright {
+    width: 100%;
+    background: #333333;
+    padding: 38px 0;
+}
+
+#copyright p {
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ===========  Copyright end ============== */
